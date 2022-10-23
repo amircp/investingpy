@@ -13,6 +13,7 @@ Just clone this repostiory
 
 ```
 git clone git@github.com:amircp/investingpy.git
+pip install -r requirements.txt
 ```  
 
 In your code editor:
