@@ -1,7 +1,7 @@
 
 # Investing.com Financial Historical Data Retriever
 
-Tired of "403 Error Retry later" error from InvestPy package. Decided to create this tiny script that uses Selenium WebDriver to retrieve the last 30 days of any financial Instrument.
+Tired of "403 Error Retry later" error from [InvestPy](https://github.com/alvarobartt/investpy) package. Decided to create this tiny script that uses Selenium WebDriver to retrieve the last 30 days of any financial Instrument.
 
 You can get any of the listing from Investing.com from Futures, Indices, Stocks and Currencies.
 
