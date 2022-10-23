@@ -19,8 +19,8 @@ pip install -r requirements.txt
 In your code editor:
 
 ```python
-from investingpy import get_investing_last30days_data
-df = get_investing_last30days_data("microsoft-corp", "equities")
+from investingpy import datafeed
+df = datafeed.get_investing_last30days_data("microsoft-corp", "equities")
 print(df.head())
 ```
 
