@@ -19,7 +19,7 @@ In your code editor:
 
 ```python
 from investingpy import get_investing_last30days_data
-df = get_investing_last30days_data("microsoft-corp", TickerType.STOCK)
+df = get_investing_last30days_data("microsoft-corp", "equities")
 print(df.head())
 ```
 
