@@ -40,5 +40,3 @@ def get_investing_last30days_data(ticker: str, asset_type: str):
     df.rename(columns={0: "Date", 1: "Price", 2: "Open", 3: "High", 4: "Low", 5: "Volume", 6: "Change"}, inplace=True)
 
     return df
-df = get_investing_last30days_data("microsoft-corp", TickerType.STOCK)
-print(df.head())
