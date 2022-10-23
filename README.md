@@ -33,7 +33,6 @@ and then we get the Microsoft Historical data frame:
 Some times the response could last a few large seconds due to investing.com blocking requests while selenium driver keeps waiting for them (they need to timeout).
 
 ## TO-DO
-This script parsing this table could lead to create a new package to replace the InvestPy Package that currently is not working. 
 
 - Create the capability to select date ranges from table
 - Add some architecture using classes
